@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/examstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bo">
+    <div id="headd" class="p-2 mb-2">
+      <h1>EXAM PAGE</h1>
+    </div>
+    <div class="container">
+      <div>
+        <div class="row gx-0 d-flex justify-content-around" id="main">
+          <div
+            class="conte quiz-area col-8 rounded p-2"
+            style="background-color: #f2f2f2"
+          >
+            <div class="mb-2" style="text-align: center">
+              QUESTIONS NUMBER : <span id="counterspan"></span>
+            </div>
+            <div
+              id="questionstotal"
+              class="questions rounded p-2"
+              style="background-color: #ffffff"
+            ></div>
+            <div id="answers" class="answers p-2"></div>
+
+            <div class="rbtn row">
+              <div class="col-5">
+                <a href="#" id="pr" class="previous">&laquo; Previous</a>
+                <a href="#" id="nx" class="next">Next &raquo;</a>
+              </div>
+              <!-- <div class="col-1 m-0">
+                <a href="#" class="mark">Mark</a>
+              </div> -->
+            </div>
+          </div>
+          <div class="other col-3 p-2 rounded">
+            <div class="bullets">
+              <div id="countdownnn" class="countdown rounded mt-2">
+                <!-- <span class="days"></span> : <span class="hours"></span> :  -->
+                <span class="minutes"></span> : <span class="seconds"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" id="submitBtn" class="btnn rounded mt-3 ms-4 p-2">
+        Submit
+      </button>
+    </div>
+
+    <script src="../js/examscript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+body {
+  background-color: #72a0c1;
+}
+#btnn {
+  background-color: #6c97b6;
+  display: block;
+  width: 100%;
+}
+#btnns {
+  background-color: #6c97b6;
+  display: block;
+  width: 100%;
+}
+
+.namecontroll.success input {
+  border-color: #2ecc71;
+}
+
+.namecontroll.error input {
+  border-color: #e74c3c;
+}
+
+.namecontroll small {
+  color: #e74c3c;
+  font-size: small;
+  visibility: hidden;
+}
+
+.namecontroll.error small {
+  visibility: visible;
+}

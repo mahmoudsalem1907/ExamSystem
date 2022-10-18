@@ -1,0 +1,6 @@
+0 - I use Json method to get data
+
+1*- run the project by liveserver becouse the file of json do not read without liver server !!!!!
+
+2*- start from welcome page 
+

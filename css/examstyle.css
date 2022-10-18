@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+.bo {
+  font-family: "Roboto" sans-serif;
+}
+
+#headd {
+  background-color: #72a0c1;
+}
+
+#main {
+  /* background-color: brown; */
+  min-height: calc(100vh - 150px);
+}
+
+.answerss {
+  background-color: white;
+  padding: 16px;
+  border-radius: 7px;
+  margin: 16px 8px 16px 8px;
+  border: #72a0c1 1px solid;
+}
+
+.answerss:hover {
+  background-color: #72a0c1;
+  border: #ffffff 1px solid;
+  color: #fff;
+  /* padding-left: 8px; */
+}
+
+.ansans {
+  padding-left: 8px;
+}
+
+.conte {
+  border: #72a0c1 1px solid;
+}
+
+.answerss input[type="radio"]:checked + label {
+  padding-left: 8px;
+  color: #002244;
+  font-weight: bold;
+}
+
+.btnn {
+  /* background-color: #0075ff; */
+  display: block;
+  width: 95.6%;
+
+  border: none;
+  color: #fff;
+  font-size: 18px;
+
+  /* margin: 20px auto; */
+  background-color: #72a0c1;
+}
+
+.btnn:focus {
+  outline: none;
+}
+
+.other {
+  border: 1px solid #72a0c1;
+  background-color: #f2f2f2f2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.countdown {
+  padding: 16px;
+  background-color: #fff;
+  border: #72a0c1 1px solid;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* .bullets .spansss {
+    display: flex;
+    flex: 1;
+} */
+.snapsss .spanon {
+  width: 10px;
+  height: 20px;
+  background-color: red;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px;
+}
+.rbtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.previous,
+.next,
+.mark {
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 8px 16px;
+  background-color: #72a0c1;
+  border-radius: 7px;
+  width: 150px;
+  color: white;
+}
+
+.previous:hover {
+  background-color: #fff;
+  color: black;
+  border: #72a0c1 1px solid;
+}
+.next:hover {
+  background-color: #fff;
+  color: black;
+  border: #72a0c1 1px solid;
+}
+
+.mark {
+  background-color: rgb(243, 243, 60);
+}
+.mark:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid;
+  border-color: rgb(243, 243, 60);
+}

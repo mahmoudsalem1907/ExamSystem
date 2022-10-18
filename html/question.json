@@ -1,0 +1,82 @@
+[
+  {
+    "head": "What does HTML stand for?",
+    "answer1": "Home Tool Markup Language",
+    "answer2": "Hyper Transfer Markup Length",
+    "answer3": "Hyperlink and Tool Markup Language",
+    "answer4": "Hyper Text Markup Language",
+    "tanswer": "Hyper Text Markup Language"
+  },
+  {
+    "head": "To get the ordered list we use",
+    "answer1": "<h1>",
+    "answer2": "<br>",
+    "answer3": "<ul>",
+    "answer4": "<ol>",
+    "tanswer": "<ol>"
+  },
+  {
+    "head": "html comment should be enclosed between",
+    "answer1": "/*",
+    "answer2": "<!– And — !>",
+    "answer3": "<!– and — ''",
+    "answer4": "<!– and — >",
+    "tanswer": "<!– and — >"
+  },
+  {
+    "head": "Example of picture editing software is",
+    "answer1": "MS paint",
+    "answer2": "Visual Studio",
+    "answer3": "Photoshop",
+    "answer4": "Sound recorder",
+    "tanswer": "Photoshop"
+  },
+  {
+    "head": "In HTML ______ tag contains the information about the current document such as title etc.",
+    "answer1": "body",
+    "answer2": "head",
+    "answer3": "TD",
+    "answer4": "Div",
+    "tanswer": "head"
+  },
+  {
+    "head": "_____ tag is used before beginning of the paragraph text",
+    "answer1": "<sup>",
+    "answer2": "<h2>",
+    "answer3": "<textarea>",
+    "answer4": "<p>",
+    "tanswer": "<p>"
+  },
+  {
+    "head": "Which one of the following tags is used to insert graphics on the web page?",
+    "answer1": "<IMAGE>",
+    "answer2": "<IMAGES>",
+    "answer3": "<IMG>",
+    "answer4": "<GRAPHIC>",
+    "tanswer": "<IMG>"
+  },
+  {
+    "head": "The components of multimedia are",
+    "answer1": "Text, pictures, video, sound",
+    "answer2": "Text, pictures,animation",
+    "answer3": "Text",
+    "answer4": "Text, pictures, video, animation, sound",
+    "tanswer": "Text, pictures, video, animation, sound"
+  },
+  {
+    "head": "JPEG stands for",
+    "answer1": "Joint photographic experts group",
+    "answer2": "Joint photographic embedded group",
+    "answer3": "Joint photographic extended group",
+    "answer4": "None of this",
+    "tanswer": "Joint photographic experts group"
+  },
+  {
+    "head": "Email works on",
+    "answer1": "store and forword principle",
+    "answer2": "forward and backward principle",
+    "answer3": "store and retrieve principle",
+    "answer4": "front and back principle",
+    "tanswer": "forward and backward principle"
+  }
+]

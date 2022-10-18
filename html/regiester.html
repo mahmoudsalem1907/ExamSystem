@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/regstyle.css" />
+  </head>
+
+  <body>
+    <div
+      style="min-height: 100vh"
+      class="container d-flex flex-column-reverse justify-content-center align-items-center fs-5"
+    >
+      <form
+        class="p-3 rounded border border-primary"
+        id="formm"
+        style="background-color: white"
+      >
+        <h1 class="text-center">SIGN UP</h1>
+        <label for="exampleInputPassword1">Full Name</label>
+        <div class="namecontroll mb-2">
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                id="fname"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col mb-2">
+              <input
+                type="text"
+                id="lname"
+                class="form-control"
+                placeholder="Last name"
+              />
+            </div>
+          </div>
+          <small id="result"></small>
+        </div>
+        <div class="namecontroll form-group mb-2">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+          <div id="emailHelp" class="form-text text-muted">
+            We'll never share your email with anyone else.
+          </div>
+          <small id="result2"></small>
+        </div>
+        <div class="namecontroll form-group mb-2">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword"
+            placeholder="Password"
+          />
+          <small id="result3"></small>
+        </div>
+        <div class="namecontroll form-group mb-3" id="pass2">
+          <label for="exampleInputPassword1 ">RE-Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="RE-Password"
+          />
+          <small id="result4"></small>
+        </div>
+
+        <button type="submit" id="btnn" class="mt-3 btn btn-primary">
+          Submit
+        </button>
+        <button id="btnn" class="mt-3 btn btn-primary" onclick="skip()">
+          Skip
+        </button>
+      </form>
+    </div>
+    <script src="../js/regscript.js"></script>
+  </body>
+</html>
